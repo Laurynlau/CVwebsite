@@ -1,0 +1,19 @@
+h1,h2,h3 {
+    font-family:Arial;
+    font-size: 18;
+    color: rgb(131,29,142)
+    }
+    
+h2 {
+    text-align: center;
+    width: 100%;
+    }
+
+#main-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}

@@ -1,0 +1,77 @@
+html { overflow-y: scroll; }
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 1%;
+    padding:0;
+    border:0;   
+ }
+
+ h3{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(230, 117, 117);
+    margin:1%;
+    padding:0;
+    border:0;
+ }
+
+ p,ul{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 90%;
+     color:rgb(230, 117, 117)
+ }
+
+ #main-header{
+    background-color: black; 
+}
+
+/* Help needed -  how to display image with main header etc*/
+.image{
+    display: flex;
+    /* float: left; */
+    width: 25%;
+    object-position: right top;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.aboutme{
+    display: inline-block;
+    position:fixed;
+    width: 75%;
+
+
+}
+
+nav{
+    align-items: center; 
+    justify-content: left;
+    width: 30%;
+    margin: 0 auto;
+
+}
+
+ #education{
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ #work-experience{
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .programming-language-ratings{
+    display: inline-block;
+    position:fixed;
+    width: 75%;
+}
+
+#skills{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+    

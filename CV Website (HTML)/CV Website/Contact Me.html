@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Contact Me </title>
+        <link rel = "stylesheet" type="text/css"  href="css/Contact Me.css" />
+    </head>
+    <script defer src = "Javascript/Submit.js"></script>
+
+    <body>
+
+        <main>
+
+        <header id="main-header">
+            <h1>LAURYN MANU</h1>
+            <h3>200075589@aston.ac.uk</h3>
+            <h3>200075589</h3>
+        </header>
+    
+        <nav>
+            <a href="CV Website.html">Home</a> |
+            <a href="Projects.html">Projects</a> |
+            <a href="Contact Me.html">Contact Me</a> 
+        </nav>
+    
+    <section id="contact-me">
+            <h2>Contact Me</h2>
+            <p>  Feel free to contact me about any project enquires.
+                Please fill in the details below:</p>
+            <br>
+    <form>
+
+    <div class="submit">
+        <h3>Details </h3>
+            <div class = "firstname">
+            <p>First Name: </p>
+        <form id="firstname">
+            <input type ="text"
+            name="name" 
+            placeholder="First Name"/>
+        </form>
+            </div>
+                
+    <div class = "email">
+        <p>Email:</p>
+        <input type="email"
+           placeholder="Email"
+           required pattern=".+(\.ac\.uk|\.edu)"
+           title="Please enter your email address."/>
+    </div>
+
+    <div class = "confirm-email">
+        <p>Confirm Email: </p>
+        <input type="email"
+           placeholder="Confirm Email"
+           required pattern=".+(\.ac\.uk|\.edu)"
+           title="Please enter your email address."/>
+    </div>
+
+    <div class = "phone-number">
+        <p> Phone Number: </p>
+        <input type="tel" 
+        placeholder="Phone Number"
+        title="Please enter your number."/>
+    </div>
+
+    <hr></hr>
+
+    <div class ="how-contact">
+        <p>How would you like to be contacted?</p>
+        <input type="checkbox" id="Email" name="Email" value="Email">
+        <label for="Email"> Email</label>
+        <br>
+        <input type="checkbox" id="Phone Number" name="Phone Number" value="Phone Number">
+        <label for="Phone Number">Phone Number</label><br>
+    </div>
+
+    <section id="project-choice-duration"></section>
+        <div class = "project-choice">
+            <P>Choose a product to enquire about : </P>
+            <select name="code">
+                <option value="Java">Java</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+            </select>
+        </div>
+
+        <div class = "date">
+            <p>Date: </p>
+            <input type="date" size="30" >
+        </div>
+
+        <div class = "project-duration">
+            <P>Duration: </P>
+            <select name="duration">
+                <option value="30">30 Minutes</option>
+                <option value="1">1 hour</option>
+                <option value="2">2 hours</option>
+            </select>
+        </div>
+    </section>
+    
+    <div>
+        <label for="text entry field"> Text Entry Field: </label>
+        <textarea id="text-entry-field" name="text-entry-field" rows = "15" cols="100"></textarea>
+    </div>
+
+<br>
+
+    <button>Submit</button>
+            
+    </form>
+
+    <br>
+
+    <footer>2022 Lauryn Manu.</footer>
+
+    </main>
+
+    </body>
+
+   
+
+    
+</html>
